@@ -1,0 +1,30 @@
+nav {
+  height: 100px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 90%;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.nav-link--active {
+  background-color: var(--background-color);
+  padding: 15px;
+  border-radius: 8px;
+  text-decoration: underline;
+}
+
+.nav-link--container {
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
